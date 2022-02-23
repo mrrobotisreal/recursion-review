@@ -4,5 +4,15 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-  // your code goes here
+  // create result variable and set to empty string
+  // if typeof obj is number
+    // return concat number to obj
+  // if typeof obj is boolean
+    // return concat boolean to obj
+  // if typeof obj is string
+    // return string quotes around obj
+  // if typeof obj is array
+    // return string brackets around obj
+  // iterate through the obj
+    // recursively call stringifyJSON on each element (concat)
 };
